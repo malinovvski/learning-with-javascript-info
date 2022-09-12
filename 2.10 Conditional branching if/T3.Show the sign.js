@@ -1,30 +1,12 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>Script</title>
-</head>
-<body>
-
-<script>
-    'use sctrict';
-
-let value = prompt("Type a number", '');
+let value = prompt('Type a number', 0);
+ 
  if ( value > 0 ) {
-    message = '1';
+    alert (1);
  } else if (value < 0) {
-    message = '-1';
- } else (value === 0 ) {
-    message = '0';
+    alert (-1);
+ } else {
+    alert (0);
  }
-
-
-</script>
-
-</body>
-</html>
-
-
-
 
 
 
